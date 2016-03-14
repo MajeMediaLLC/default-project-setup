@@ -21,3 +21,13 @@ define( 'FORCE_SSL_ADMIN', FALSE );
 define( 'FORCE_SSL_LOGIN', FALSE );
 define( 'DISALLOW_FILE_EDIT', FALSE );
 define( 'DISALLOW_FILE_MODS', FALSE );
+
+// =============================================================================
+// This section stays static
+// =============================================================================
+
+
+// =============================================================================
+// REDO THESE EVERYTIME
+// =============================================================================
+// TODO: Per Install: Redo these here: https://api.wordpress.org/secret-key/1.1/salt/

@@ -94,18 +94,8 @@ if ( WP_DEBUG ) {
 	define( 'WP_DEBUG_LOG', TRUE );
 }
 
+
 define( 'WP_CACHE_KEY_SALT', md5( DB_NAME . __FILE__ ) );
-
-// TODO: Per Install: Redo these here: https://api.wordpress.org/secret-key/1.1/salt/
-define( 'AUTH_KEY', '7a,+Hb4h-r{#)VqO+60v!sy8Bj/I`i 0gVooy^kXRjT%5YU8H=IUhN<6X(P~gUv*' );
-define( 'SECURE_AUTH_KEY', 'k0:4D4s|g]d/c&[7Eg`egDcr$(IQ4?8> }! R7#]=q:]aY<5*sCC|L3~M3C#Z h+' );
-define( 'LOGGED_IN_KEY', 'ci/z:A+_+G$m@X:OjES%s9&+~8%W|0jF4p22WOT;-#Kq)I5-R0GO*Kam5J!S?$g+' );
-define( 'NONCE_KEY', '|S|z!7R-iBf+EHxK1m)E+:[.@h,-bJ:@l+h+0)`TB>-(U*)Y)CXC=S^[u:2s!7W$' );
-define( 'AUTH_SALT', '[,*a_Bb)gZ(*fqREQ=+?&kw*>]GbMC-f|#`BI!}wm0I|i4``Hw1X%b=!kW8Z+X8B' );
-define( 'SECURE_AUTH_SALT', 'DSeB_UZo|JDJHM^)RLt,E;9E&`WP-?/N7F&ax4A/M#vSZt8WHR4YybuIwx2%2!6B' );
-define( 'LOGGED_IN_SALT', 'GQu1#H>3Z3!+>wC*oe|.F+nv3V^TQ,>zF~Q{5n?Qlpm@e+@kt4lbH82$T9>(h&Zy' );
-define( 'NONCE_SALT', 'Yfao+69S~/>HXq_> YvA0qM45pV{!>dXo5(shG&x&xxQZd#n,(K+WPjY4KG,?o%K' );
-
 
 // =============================================================================
 // Bootstrap WordPress
