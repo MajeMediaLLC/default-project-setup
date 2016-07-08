@@ -88,7 +88,7 @@ if ( WP_DEBUG ) {
 	define( 'WP_ENV', 'development' );
 	define( 'SCRIPT_DEBUG', TRUE );
 	define( 'CONCATENATE_SCRIPTS', FALSE );
-	if ( ! DOING_CRON ) {
+	if ( ( ! defined( 'DOING_CRON' ) || ! DOING_CRON ) && ! defined( 'SAVEQUERIES' ) ) {
 		define( 'SAVEQUERIES', TRUE );
 	}
 	define( 'WP_DEBUG_LOG', TRUE );
